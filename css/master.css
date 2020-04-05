@@ -142,3 +142,15 @@ li img {
 .watch:hover {
   border-bottom: 1px solid currentColor;
 }
+
+.thumb {
+  display: flex;
+  max-width: 1440px;
+  min-width: 1250px;
+}
+
+.thumb img {
+  display: block;
+  min-width: 312px;
+  max-width: 338px;
+}
