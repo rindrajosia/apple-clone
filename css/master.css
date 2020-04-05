@@ -46,6 +46,12 @@ header {
   font-size: 0.9rem;
 }
 
+.menu p {
+  margin: 0;
+  padding: 0;
+  padding: 10px 20px;
+}
+
 footer a {
   text-decoration: none;
   color: rgb(0, 136, 204);
