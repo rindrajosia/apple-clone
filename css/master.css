@@ -46,9 +46,34 @@ header {
   font-size: 0.9rem;
 }
 
+footer a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+.footer-menu li a,
+.footer-left li a {
+  display: block;
+  text-align: center;
+  padding: 0 7px;
+  text-decoration: none;
+  border-left: 1px ridge gray;
+  color: rgb(0, 136, 204);
+}
+
 .menu ul li {
   float: left;
   background: linear-gradient(to bottom, rgb(134, 134, 134) 5%, rgb(128, 128, 128) 50%, rgb(107, 107, 107) 51%);
+}
+
+.footer-left li:first-child {
+  display: block;
+  text-align: center;
+  padding-right: 7px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .menu ul li a {
@@ -58,6 +83,10 @@ header {
   padding: 10px 20px;
   text-decoration: none;
   height: 20px;
+}
+
+.footer-menu li a:hover {
+  text-decoration: underline;
 }
 
 .menu ul li a:not(.text) {
@@ -153,4 +182,33 @@ li img {
   display: block;
   min-width: 312px;
   max-width: 338px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  max-width: 1440px;
+  min-width: 1250px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+  color: #666;
+  font-size: 10px;
+}
+
+.footer-left {
+  width: 470px;
+}
+
+.footer-right {
+  width: 400px;
+}
+
+.footer-menu,
+.footer-left ul {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
