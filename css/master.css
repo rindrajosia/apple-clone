@@ -2,3 +2,11 @@
   font-family: 'imelda';
   src: url('imelda.ttf') format('truetype');
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: imelda, Arial, sans-serif;
+  max-width: 1440px;
+  min-width: 1250px;
+}
