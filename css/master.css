@@ -48,8 +48,8 @@ header {
 
 .menu p {
   margin: 0;
-  padding: 0;
-  padding: 0 20px;
+  padding-top: 10px;
+  height: 30px;
 }
 
 footer a {
