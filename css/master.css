@@ -22,3 +22,123 @@ header {
   max-width: 1440px;
   min-width: 1250px;
 }
+
+.col8 {
+  grid-column-end: span 8;
+}
+
+.col6 {
+  grid-column-end: span 7;
+}
+
+.menu {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  border-radius: 5px;
+}
+
+.menu ul {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 0.9rem;
+}
+
+.menu ul li {
+  float: left;
+  background: linear-gradient(to bottom, rgb(134, 134, 134) 5%, rgb(128, 128, 128) 50%, rgb(107, 107, 107) 51%);
+}
+
+.menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  height: 20px;
+}
+
+.menu ul li a:not(.text) {
+  border-right: 2px ridge gray;
+}
+
+.menu ul li a:not(.text):hover {
+  background: radial-gradient(gray, dimgray, black);
+}
+
+.menu ul li:first-child,
+.logo:hover {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.text {
+  border: none;
+  transition: 0.5s;
+}
+
+input[type="text"] {
+  width: 100px;
+  border-radius: 9px;
+  border: 2px inset dimgray;
+  background: transparent;
+  padding-left: 16px;
+  background-image: url('../assets/search.png');
+  background-repeat: no-repeat;
+}
+
+input[type="text"]:focus-within {
+  width: 120px;
+  transition: 0.5s;
+  background: white;
+  background-image: url('../assets/search.ico');
+  background-repeat: no-repeat;
+}
+
+.menu ul li:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+li img {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 17px;
+  height: 14px;
+}
+
+.title {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  grid-row-end: span 7;
+  text-align: center;
+  border: 5px;
+  color: white;
+}
+
+.title h1 {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+.title p:not(.link) {
+  font-size: 1.9rem;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+.watch {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.link img {
+  vertical-align: middle;
+}
+
+.watch:hover {
+  border-bottom: 1px solid currentColor;
+}
