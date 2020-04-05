@@ -10,3 +10,15 @@ body {
   max-width: 1440px;
   min-width: 1250px;
 }
+
+header {
+  background-image: url("../assets/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+  background-size: auto;
+  height: 540px;
+  max-width: 1440px;
+  min-width: 1250px;
+}
