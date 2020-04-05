@@ -206,7 +206,7 @@ footer {
 
 .center-footer {
   margin-top: 10px;
-  width: 770px;
+  min-width: 780px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
