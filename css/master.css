@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'imelda';
+  src: url('imelda.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: imelda, Arial, sans-serif;
+  max-width: 1440px;
+  min-width: 1250px;
+}
+
+header {
+  background-image: url("../assets/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  display: grid;
+  grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+  background-size: auto;
+  height: 540px;
+  max-width: 1440px;
+  min-width: 1250px;
+}
+
+.col8 {
+  grid-column-end: span 8;
+}
+
+.col6 {
+  grid-column-end: span 7;
+}
+
+.menu {
+  grid-column-start: 4;
+  grid-row-start: 2;
+  border-radius: 5px;
+}
+
+.menu ul {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 0.9rem;
+}
+
+.menu p {
+  margin: 0;
+  padding: 10px 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+.footer-menu li a,
+.footer-left li a {
+  display: block;
+  text-align: center;
+  padding: 0 3px;
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+.footer-menu li a {
+  border-right: 1px ridge gray;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  height: 20px;
+}
+
+.footer-left li a:not(.last) {
+  border-right: 1px ridge gray;
+}
+
+.menu ul li {
+  float: left;
+  background: linear-gradient(to bottom, rgb(134, 134, 134) 5%, rgb(128, 128, 128) 50%, rgb(107, 107, 107) 51%);
+}
+
+.footer-left li:first-child {
+  display: block;
+  text-align: center;
+  padding-right: 7px;
+}
+
+.footer-menu li a:hover {
+  text-decoration: underline;
+}
+
+.menu ul li a:not(.text) {
+  border-right: 2px ridge gray;
+}
+
+.menu ul li a:not(.text):hover {
+  background: radial-gradient(gray, dimgray, black);
+}
+
+.menu ul li:first-child,
+.logo:hover {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.text {
+  border: none;
+  transition: 0.5s;
+}
+
+input[type="text"] {
+  width: 100px;
+  border-radius: 9px;
+  border: 2px inset dimgray;
+  background: transparent;
+  padding-left: 16px;
+  background-image: url('../assets/search.png');
+  background-repeat: no-repeat;
+}
+
+input[type="text"]:focus-within {
+  width: 120px;
+  transition: 0.5s;
+  background: white;
+  background-image: url('../assets/search.ico');
+  background-repeat: no-repeat;
+}
+
+.menu ul li:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+li img {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 17px;
+  height: 14px;
+}
+
+.title {
+  grid-column-start: 4;
+  grid-row-start: 3;
+  grid-row-end: span 7;
+  text-align: center;
+  border: 5px;
+  color: white;
+}
+
+.title h1 {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+.title p:not(.link) {
+  font-size: 1.9rem;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+.watch {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.link img {
+  vertical-align: middle;
+}
+
+.watch:hover {
+  border-bottom: 1px solid currentColor;
+}
+
+.thumb {
+  display: flex;
+  max-width: 1440px;
+  min-width: 1250px;
+}
+
+.thumb img {
+  display: block;
+  min-width: 312px;
+  max-width: 338px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+  color: #666;
+  font-size: 10px;
+}
+
+.center-footer {
+  margin-top: 10px;
+  min-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left {
+  width: 470px;
+}
+
+.footer-right {
+  width: 300px;
+}
+
+.footer-menu,
+.footer-left ul {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
