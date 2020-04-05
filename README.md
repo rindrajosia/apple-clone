@@ -22,13 +22,6 @@ To use it locally, you need to :
 
 # Authors
 
-**Gabrie Lhilarion**
-
-
-* Github: **[@gabrie-lhilarion](https://github.com/gabrie-lhilarion)**
-* Twitter: **[@gabrielDeman](https://www.twitter.com/gabrielDeman)**
-* Linkedin: **[linkedin](https://www.linkedin.com/in/gabrielhilarion/)**
-
 **Rindra Josia**
 
 * Github: **[@rindrajosia](https://github.com/rindrajosia)**
@@ -38,7 +31,7 @@ To use it locally, you need to :
 #  Contributing
 
 Contributions, issues and feature requests are welcome!
-Feel free to check the **[issues](https://github.com/rindrajosia/mint-clone/issues)** page.
+Feel free to check the **[issues](https://github.com/rindrajosia/apple-clone/issues)** page.
 
 
 #  Show your support
@@ -47,6 +40,6 @@ Feel free to check the **[issues](https://github.com/rindrajosia/mint-clone/issu
 
 # Acknowledgments
 
-* mint.com
+* apple.com
 * Microverse
 * Contributors
